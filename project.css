@@ -1,0 +1,185 @@
+.grid1 {
+    height: 30vh;
+    width: 100vw;
+    background-color: plum;
+    grid-area: b1;
+
+}
+.grid2 {
+    position: relative;
+    height: 150vh;
+    width: 100vw;
+    background-color: forestgreen;
+    grid-area: b2;
+}   
+
+
+
+.grid3 {
+    height: 50vh;
+    width: 100vw;
+    background-color: green;
+    grid-area: b3;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+      "b1 b1 b1 b1" 
+      "b2 b2 b2 b2"
+      "b2 b2 b2 b2"
+      "b2 b2 b2 b2"
+      "b2 b2 b2 b2"
+      "b2 b2 b2 b2"
+      "b3 b3 b3 b3"
+      "b3 b3 b3 b3"
+      "b3 b3 b3 b3";
+}
+
+h1 {
+    font-size: xx-large;
+    font-family: Georgia;
+    font-weight: bolder;
+    color: orangered;
+    float: left;
+    margin-bottom: 0;
+}
+h2 {
+    font-size: small;
+    font-weight: bold;
+    font-family: monospace;
+    color: black;
+    padding-top: 50px;
+    padding-right: 1000px;
+    padding-left: 150px;
+    margin-top: 0;
+}
+
+.hen1 {
+    padding-left: 80px;
+    padding-top: 30px;
+} 
+.mainhen {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}   
+.hen2 {
+    padding-left: 80px; 
+    padding-top: 30px;
+}
+.googlemap {
+    padding-left: 80px;
+    padding-top: 30px;
+}
+
+th {
+    font-size: larger;
+    font-family: 'Lucida Sans';
+    font-weight: 900;
+    color: snow;
+}
+td {
+    font-size: medium;
+    font-family: 'Lucida Sans';
+    font-weight: 800;
+    color: snow;
+}
+.address {
+    padding-left: 200px;
+    padding-top: 60px;
+}
+.address1 {
+    padding-left:200px;
+    
+}
+.address2 {
+    padding-left: 200px;
+
+}
+.hours {
+    padding-top: 60px;
+    padding-left: 100px;
+}
+.hours1 {
+    padding-left: 100px;
+}    
+
+
+.hours2 {
+    padding-left:100px;
+}
+
+.breed {
+    position: absolute;
+    bottom: 0;
+    padding: 190px 200px 190px;
+    text-align: center;
+    color:white;
+}
+.fancy {
+    position: absolute;
+    bottom: 0;
+    padding-left: 500px;
+    padding-bottom: 190px;
+    padding-right: 500px;
+    color: white;
+}
+.map {
+    position: absolute;
+    bottom: 190px;
+    padding-top: 950px;
+    padding-left: 900px;
+    text-align: center;
+    color:black;
+
+}
+.tophen {
+    float:left;
+}
+.tophen2 {
+    position: absolute;
+    top:55px;
+    left: 130px;
+    float: left;    
+}
+.description {
+    padding-top: 60px;
+    padding-left: 250px;
+}
+.des1 {
+    padding-left: 250px;
+}
+.des2 {
+    padding-left: 250px;
+}
+.button1 {
+    float: right;
+    position: relative;
+    top: -60px;
+    left: -50px;
+    padding-right: 10px;
+    border-radius: 50%;
+    background-color: plum;
+}
+/* Darker background on mouse-over */
+.button1:hover {
+    background-color:palevioletred;
+}    
+
+.button2 {
+    float: right;
+    position: relative;
+    top: -60px;
+    left: -60px;
+    padding-right: 20px;
+    border-radius: 50%;
+    background-color:plum;
+}
+/* Darker background on mouse-over */
+.button2:hover {
+    background-color:palevioletred;
+}
